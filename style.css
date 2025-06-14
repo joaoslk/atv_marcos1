@@ -1,0 +1,80 @@
+/* Faz o rodapé ficar no final da página */
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #3366cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  section {
+    flex: 3;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+  
+footer {
+    background-color: #222;
+    color: white;
+    
+    text-align: center;
+    padding: 15px;
+    margin-top: 100px;
+  }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer #f:hover{
+    color: #3366cc;
+    transition: 0.5s;
+}
+
+footer #w:hover{
+    color: #00c500;
+    transition: 0.5s;
+}
+
+footer #i:hover{
+    color: #e20071;
+    transition: 0.5s;
+}
